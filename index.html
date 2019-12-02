@@ -7,11 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coleman Cable</title>
     <link rel="stylesheet" href="style.css">
-</head>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
 <body>
     <div class="container">
-        <h1>BUY COLEMAN WIRES</h1>
+        <h1 id="hover-ease">EDUCATION FOR ALL</h1>
         <h2>Brewing something Awesome</h2>
         <div class="count">
             <div class="countd">
@@ -33,28 +32,30 @@
         </div>
     </div>
 
-    <script> 
-        var count = new Date("dec 25,2019 00:00:00").getTime();
-        var x = setInterval(function () {
-        var now = new Date().getTime();
-        var d = count - now;
+    <div class="container2">
+        <div class="social-main">
+            <div class="social">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 
-        var days = Math.floor(d/(1000*60*60*24));
-        var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
-        var minutes = Math.floor((d%(1000*60*60))/(1000*60));
-        var seconds = Math.floor((d%(1000*60))/1000);
-
-        document.getElementById("days").innerHTML = days;
-        document.getElementById("hours").innerHTML = hours;
-        document.getElementById("minutes").innerHTML = minutes;
-        document.getElementById("seconds").innerHTML = seconds;
-
-        if(d<= 0){
-            clearInterval(x)
-        }
-
-    },1000);
-</script>
 </body>
-
+<script src="index.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" integrity="sha256-qM7QTJSlvtPSxVRjVWNM2OfTAz/3k5ovHOKmKXuYMO4=" crossorigin="anonymous"></script>
+<footer>
+    
+</footer>
 </html>

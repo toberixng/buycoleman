@@ -25,7 +25,7 @@ body {
     text-transform: uppercase;
     font-size: 60px;
     margin: 10;
-    letter-spacing: 10px;
+    letter-spacing: 10px;  
 }
 
 .container h2 {
@@ -56,23 +56,39 @@ body {
     margin-top: 14px;
 }
 
-
-
-/* * {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-image: linear-gradient(rgb(0,0,0,0.5)),url(image/cable.jpg);
-    height: 100vh;
-    background-position: center;
-    background-size:cover;
-}
-
-.hero {
-    top: 50%;
-    left: 50%;
+.container2 {
+    width: 100%;
     position: absolute;
+    top: 85%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+/* .social-main {
+    margin: 40px 0;
 } */
+
+.social {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 0 15px;
+    font-size: 35px;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.social:hover {
+    top: -10px;
+  }
+
+.social-main a {
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
