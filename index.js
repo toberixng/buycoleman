@@ -1,4 +1,4 @@
-let count = new Date("dec 25,2019 00:00:00").getTime();
+let count = new Date("jan 25,2019 00:00:00").getTime();
 
 let x = setInterval(() => {
 let now = new Date().getTime();
